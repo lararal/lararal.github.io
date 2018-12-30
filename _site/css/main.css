@@ -1,0 +1,20 @@
+.social-logo {
+	font-size: 2em;
+	padding-right: 10px;
+	color: black;
+}
+
+/*.facebook-logo {*/
+	/*color: #4267b2;*/
+/*}*/
+/*.instagram-logo {*/
+	/*color: #d52db1;*/
+/*}*/
+
+#a.facebook-logo:hover {
+	color: #4267b2 important!;
+}
+
+#a.instagram-logo:hover {
+	color: #d52db1 important!;
+}
