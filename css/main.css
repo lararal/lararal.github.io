@@ -1,15 +1,13 @@
+
+.dark-bg-theme {
+	background-color: #1c1c1c;
+}
+
 .social-logo {
 	font-size: 2em;
 	padding-right: 10px;
 	color: black;
 }
-
-/*.facebook-logo {*/
-	/*color: #4267b2;*/
-/*}*/
-/*.instagram-logo {*/
-	/*color: #d52db1;*/
-/*}*/
 
 #a.facebook-logo:hover {
 	color: #4267b2 important!;
@@ -18,3 +16,67 @@
 #a.instagram-logo:hover {
 	color: #d52db1 important!;
 }
+
+.about-bg {
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-image: url('/img/encanto_capa_edited.png');
+    /*opacity: 0.3;*/
+    /*filter: alpha(opacity=30);*/
+}
+
+.about {
+	color: #fcfaf9;
+}
+
+.about-forro-in-seattle {
+	font-size: 86px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.about-description {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-brand-font {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.nav-items-font {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.general-title {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.about-classes-button {
+	margin-top: 20px;
+	border-radius: 25px;
+	padding: 10px 40px 10px 40px;
+}
+
+.dark-font {
+	color: #fcfaf9;
+}
+
+.parties-img {
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+	width: auto;
+	margin-bottom: 40px;
+}
+
+.contact-logo {
+	font-size: 3em;
+	margin: 0px 20px 0px 20px;
+	color: #fcfaf9;
+}
+

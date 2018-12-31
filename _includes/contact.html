@@ -1,24 +1,21 @@
 <section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center dark-font">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Contact Us!</h2>
-                <hr class="primary">
-                <p>Ipsum Lorem. Ipsum Lorem.</p>
+                <h2 class="general-title">CONTACT US!</h2>
+                <hr class="light">
+                <div class="row justify-content-md-center">
+                    <a class ="contact-logo" href="mailto:{{ site.email }}">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <a class="contact-logo" href="{{ site.instagram }}" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="contact-logo" href="{{ site.facebook }}" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="mailto:{{ site.email }}">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn"></i>
-                    <p>{{ site.email }}</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github fa-3x wow bounceIn"></i>
-                    <p>{{ site.github_username }}</p>
-                </a>
-            </div>
     </div>
 </section>

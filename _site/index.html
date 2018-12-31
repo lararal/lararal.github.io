@@ -13,7 +13,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"> -->
@@ -33,84 +35,86 @@
 
 </head>
 
-<body id="page-top" class="bg-dark">
+<body id="page-top" class="dark-bg-theme">
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-  <a class="navbar-brand" href="#about">Forró in Seattle</a>
+  <a class="navbar-brand nav-brand-font" href="#about">FORRÓ IN SEATTLE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav nav-items-font">
       <li class="nav-item active">
-        <a class="nav-link page-scroll" href="#about">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link page-scroll" href="#about">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#classes">Classes</a>
+        <a class="nav-link page-scroll" href="#classes">CLASSES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#parties">Parties</a>
+        <a class="nav-link page-scroll" href="#parties">PARTIES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#workshops">Workshops</a>
+        <a class="nav-link page-scroll" href="#workshops">WORKSHOPS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link page-scroll" href="#contact">Contact</a>
+        <a class="nav-link page-scroll" href="#contact">CONTACT</a>
       </li>
     </ul>
   </div>
   <a class="social-logo" id="instagram-logo" href="https://www.instagram.com/forroinseattle/" target="_blank">
     <i class="fab fa-instagram"></i>
   </a>
-  <a class="social-logo" id="facebook-logo" href="https://www.facebook.com/forroinseattle/" target="_blank">
+  <a class="social-logo" id="facebook-logo" href="https://www.facebook.com/" target="_blank">
     <i class="fab fa-facebook"></i>
   </a>
 </nav>
 
   <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Forró in Seattle</h1>
-            <hr>
-            <p>Come join us!</p>
-            <a href="#classes" class="btn btn-light btn-xl page-scroll">
-            	Classes Calendar
-            </a>
+    <div class="about-bg">
+        <div class="container">
+            <div class="row about justify-content-md-center">
+            <div class="col-lg-8 text-center">
+                <h1 class="about-forro-in-seattle general-title">FORRÓ IN SEATTLE</h1>
+                <hr>
+                <p class="about-description">Come join us!</p>
+                <a href="#classes" class="btn btn-light btn-xl page-scroll about-classes-button">
+                	See Classes
+                </a>
+            </div>
+            </div>
         </div>
     </div>
 </header>
   <section class="bg-light" id="classes">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Classes Calendar</h2>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="general-title">CLASSES</h2>
                 <hr class="light">
-                <p class="text-faded">
+                <p>
                     Calendar lorem ipsum lorem ipsum. Lorem Ipsum. Lorem Ipsum.
                 </p>
             </div>
         </div>
     </div>
 </section>
-  <section class="bg-dark" id="parties">
+  <section id="parties">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center dark-font">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Parties</h2>
+                <h2 class="general-title">CONCERTS</h2>
                 <hr class="light">
-                <p class="text-faded">
-                    Parties lorem ipsum lorem ipsum. Lorem Ipsum. Lorem Ipsum.
-                </p>
+                <img class="parties-img" src="/img/shows2019_1.png">
             </div>
         </div>
     </div>
 </section>
   <section class="bg-light" id="workshops">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Workshops</h2>
+                <h2 class="general-title">WORKSHOPS</h2>
                 <hr class="light">
-                <p class="text-faded">
+                <p>
                     No workshops scheduled at this moment.
                 </p>
             </div>
@@ -119,26 +123,23 @@
 </section>
   <section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center dark-font">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Contact Us!</h2>
-                <hr class="primary">
-                <p>Ipsum Lorem. Ipsum Lorem.</p>
+                <h2 class="general-title">CONTACT US!</h2>
+                <hr class="light">
+                <div class="row justify-content-md-center">
+                    <a class ="contact-logo" href="mailto:forroinseattle@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <a class="contact-logo" href="https://www.instagram.com/forroinseattle/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="contact-logo" href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="mailto:forroinseattle@gmail.com">
-                <i class="fa fa-envelope-o fa-3x wow bounceIn"></i>
-                    <p>forroinseattle@gmail.com</p>
-                </a>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 text-center">
-                <a href="https://github.com/lararal">
-                <i class="fa fa-github fa-3x wow bounceIn"></i>
-                    <p>lararal</p>
-                </a>
-            </div>
     </div>
 </section>
   <!-- jQuery -->
