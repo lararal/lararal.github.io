@@ -33,19 +33,18 @@
 }
 
 .about-forro-in-seattle {
-	font-size: 86px;
 	margin-top: 50px;
 	font-weight: bold;
 }
 
 .about-description {
-	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
+	margin: 80px 0px 50px 0px;
 }
 
 .about-join {
-	font-size: 40px;
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 50px;
 }
 
 .nav-brand-font {
