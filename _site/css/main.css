@@ -88,3 +88,7 @@
 	font-weight: bold;
 }
 
+.cancelled-text {
+	text-decoration: line-through;
+}
+
